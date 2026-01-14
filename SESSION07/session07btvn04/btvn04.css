@@ -1,0 +1,35 @@
+.box{
+    display: inline-block;
+    border: 1px solid white;
+    background-color: lightgray;
+}
+.box1{
+    display: inline-block;
+    border: 1px solid #ccc ;
+    border-radius: 20px;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+}
+.box2{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+}
+.box3{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 250px;
+    padding-bottom: 15px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+}

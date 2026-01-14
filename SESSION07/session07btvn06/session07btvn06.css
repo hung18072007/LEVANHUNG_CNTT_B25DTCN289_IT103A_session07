@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 5px solid green;
+    display: inline-block;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.work{
+    margin-bottom: 20px;
+    position: relative;
+}
+.h1{
+    font-size: 30px;
+    padding-right: 20px;
+}
+.progress-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  height: 12px;
+  overflow: hidden;
+}
+.progress-bar {
+  height: 100%;
+  background-color: #00ff00;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+.name{
+    color: black;
+}
+.price{
+    color: black;
+}
+p{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.status {
+    display: inline-block;
+    background-color: #ffecd2;
+    color: #cb8b2e;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}

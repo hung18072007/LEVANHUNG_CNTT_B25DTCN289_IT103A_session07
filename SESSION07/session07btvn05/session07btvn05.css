@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background: #f3f3f3;
+  font-family: cursive;
+}
+.box{
+    width: 500px;
+    background: #fff;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.tieude{
+    text-align: center;
+    background: aquamarine;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.hot{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+}
+.box p{
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+.note {
+    color: greenyellow;
+}
+.button {
+    color: black;
+    background-color: aqua;
+    padding: auto;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Phòng Khám Nha Khoa</title>
+    <link rel="stylesheet" href="./session07btvn07.css" />
+  </head>
+  <body>
+    <div class="feedback-container">
+      <div class="form-header">
+        <h1>Biểu Mẫu Feedback Phòng Khám Nha Khoa</h1>
+      </div>
+
+      <div class="form-group">
+        <label for="hovaten">Họ và tên</label>
+        <input
+          type="text"
+          id="hovaten"
+          class="form-input"
+          placeholder="Nhập họ tên"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="form-input"
+          placeholder="example@gmail.com"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="dichvu">Dịch vụ đã sử dụng</label>
+        <select name="dichvu" id="dichvu" class="form-select">
+          <option value="khamrang">Khám răng tổng quát</option>
+          <option value="niengrang">Niềng răng chỉnh nha</option>
+          <option value="taytrang">Tẩy trắng răng</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="mucdo">Mức độ hài lòng</label>
+        <select name="mucdo" id="mucdo" class="form-select">
+          <option value="1">Rất hài lòng</option>
+          <option value="2">Hài lòng</option>
+          <option value="3">Bình thường</option>
+          <option value="4">Không hài lòng</option>
+          <option value="5">Rất không hài lòng</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="noidung">Nội dung phản hồi</label>
+        <textarea
+          name="noidung"
+          id="noidung"
+          class="form-textarea"
+          placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."
+        ></textarea>
+      </div>
+
+      <div class="form-action">
+        <button type="submit" class="btn-submit">Gửi feedback</button>
+      </div>
+    </div>
+  </body>
+</html>

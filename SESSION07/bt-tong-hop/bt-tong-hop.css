@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.banner {
+    background-color: #172c4a;
+    color: white;
+    padding: 50px 400px;
+    margin-bottom: 76px;
+}
+.block-content {
+}
+.tag {
+    height: 40px;
+    background-color: transparent;
+    padding: 0 12px;
+    border: 1px solid #617289;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.solgan {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+.description {
+    width: 665px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.button-naivgates {
+    margin-bottom: 24px;
+}
+.button-primary {
+    height: 50px;
+    padding: 0 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+.review {
+}
+.card {
+    padding: 24px 16px;
+    border: 1px solid #213a60;
+    border-radius: 20px;
+    width: 200px;
+    transition: all 0.3s linear;
+    background-color: #223e68;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.number {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main {
+    width: 1500px;
+    margin: 0 auto;
+}
+.footer {
+}
